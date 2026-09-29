@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Debug example_rle8",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/example_rle8_dbg",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "MIMode": "gdb",
+            "preLaunchTask": "build-example-rle8"
+        },
+        {
+            "name": "Debug test_rle",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/test_main_dbg",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "MIMode": "gdb",
+            "preLaunchTask": "build-debug"
+        }
+
+    ]
+}
